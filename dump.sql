@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS `models` (
   `type` varchar(250) NOT NULL COMMENT 'Тип кузова',
   `colors` varchar(250) NOT NULL COMMENT 'Цвета автомобиля',
   `description` text NOT NULL COMMENT 'Описание',
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 CREATE TABLE IF NOT EXISTS `colors` (
   `id` int(255) NOT NULL AUTO_INCREMENT,
